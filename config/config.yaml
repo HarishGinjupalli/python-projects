@@ -1,0 +1,15 @@
+# config.yaml
+# General project/company settings used in the generated proposal.
+
+company_name: "Your Consulting Practice"
+prepared_by: "Harish"
+proposal_validity_days: 30
+
+proposal_terms:
+  - "Estimates are indicative and based on the requirements shared at the time of this proposal."
+  - "Any change in scope will be handled through a formal change request process."
+  - "Payment terms: 30% advance, 40% at midpoint milestone, 30% on delivery."
+  - "This proposal is valid for the number of days stated above from the date of issue."
+
+output_dir: "output"
+log_file: "output/run.log"

@@ -1,0 +1,29 @@
+# rate_card.yaml
+# Central configuration for effort estimation and pricing.
+# Update rates/multipliers here — no code changes required.
+
+currency: INR
+
+# Daily billing rate per role (in the currency above)
+roles:
+  Python Developer: 8000
+  Senior Consultant: 14000
+  Business Analyst: 9500
+  QA Engineer: 6500
+  Project Manager: 15000
+
+# Multiplier applied to base effort (person-days) based on requirement complexity
+complexity_multiplier:
+  Low: 1.0
+  Medium: 1.5
+  High: 2.2
+
+# Base effort in person-days assumed for a "Low" complexity requirement
+# before the complexity multiplier is applied
+base_effort_days: 2.0
+
+# Contingency added on top of the calculated effort to absorb scope risk
+risk_buffer_percent: 12
+
+# Tax/overhead applied on top of the final cost (set to 0 to disable)
+overhead_percent: 5

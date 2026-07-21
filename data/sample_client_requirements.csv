@@ -1,0 +1,11 @@
+requirement_id,requirement_description,role,complexity
+REQ-001,Design and implement customer data ingestion pipeline,Python Developer,High
+REQ-002,Build REST API for order management module,Python Developer,Medium
+REQ-003,Requirement gathering workshops with client stakeholders,Business Analyst,Low
+REQ-004,Configure and validate business rules engine,Senior Consultant,High
+REQ-005,Unit and integration test suite for order module,QA Engineer,Medium
+REQ-006,Data migration scripts from legacy system,Python Developer,High
+REQ-007,User acceptance testing coordination,QA Engineer,Low
+REQ-008,Project planning and status reporting,Project Manager,Low
+REQ-009,Dashboard for order and inventory KPIs,Python Developer,Medium
+REQ-010,Documentation and knowledge transfer sessions,Business Analyst,Low
